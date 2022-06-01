@@ -15,8 +15,7 @@ int lengthOfLongestSubstring(s) {
 
   for (int i = 0; i < s.length; i++) {
     while (found.contains(s[i])) {
-      found.remove(s[windowStart]);
-      print(s[windowStart]);
+      found.remove(s[windowStart]);  // using the s[windowStart] acts like a slider
       windowStart++;
     }
     found.add(s[i]);

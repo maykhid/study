@@ -2,7 +2,7 @@
 
 This is a documentaion of sorts, where I touch on specific topics in DS and Algo and also some other sub topics, to level up my knowledge in this field.
 
-What I will be Studying (This list subject to change):
+What I will be Studying (This list is subject to change):
 
 # Big O
 # Array

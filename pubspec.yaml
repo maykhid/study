@@ -1,0 +1,8 @@
+name: study
+description: Study stuff
+version: 1.0.0
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+dependencies: 
+  stack: ^0.2.1

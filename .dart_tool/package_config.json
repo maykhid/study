@@ -1,0 +1,20 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "stack",
+      "rootUri": "file:///Users/owner/.pub-cache/hosted/pub.dartlang.org/stack-0.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "study",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    }
+  ],
+  "generated": "2022-06-05T05:13:13.321419Z",
+  "generator": "pub",
+  "generatorVersion": "2.16.2"
+}

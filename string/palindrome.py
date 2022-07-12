@@ -1,10 +1,8 @@
 import re
 
 def isPalindrome(s: str):
-    temp = s.replace(' ', '')
-    temp = temp.replace(',', '')
-    temp = temp.replace(':', '')
-    s = temp
+    temp = re.sub(r'[^a-zA-Z0-9]', '', s)
+    s = temp.lower()
 
     j = len(s) - 1
     i = 0

@@ -2,6 +2,7 @@ def canConstruct(ransomNote: str, magazine: str) -> bool:
         mag = {}
         
         # first for loop adds key (letter) and value (number of occurence) to the mag dict and increments for every occurence
+        # I KNOW I COULD HAVE USED COUNTER, BUT I DIDN'T😅!!!
         for i in magazine:
             if i in mag:
                 mag[i] += 1
